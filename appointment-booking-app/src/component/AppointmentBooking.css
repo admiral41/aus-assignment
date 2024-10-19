@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #343a40;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #5a67d8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #434190;
+}
+
+.form-control:focus {
+    border-color: #5a67d8;
+    box-shadow: 0 0 0 0.2rem rgba(90, 103, 216, 0.25);
+}
+
+.icon {
+    margin-right: 8px;
+}
